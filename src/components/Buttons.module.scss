@@ -1,0 +1,27 @@
+.button-wrapper {
+  padding: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &__resetAll {
+    color: #1bfd1b;
+  }
+
+  &__deleteAll {
+    color: #ab0020;
+  }
+}

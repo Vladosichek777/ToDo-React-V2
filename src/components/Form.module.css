@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    height: 50px;
+    border: none;
+
+}
+
+form input {
+    padding: 5px 10px;
+    height: 100%;
+
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+form button {
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+form button:hover {
+    background-color: rgba(23, 244, 41, 0.653);
+}

@@ -1,0 +1,74 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 40vw;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: floralwhite;
+}
+
+.todo--done {
+    background-color: #ababab;
+}
+
+.todo--done .todo__icons--edit,
+.todo--done .todo__icons--done {
+    color: #616560;
+}
+
+.todo--done .todo__icons--delete {}
+
+.todo__left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+}
+
+.todo__input {
+    font-size: 25px;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.todo__input:focus {
+    border: none;
+}
+
+.todo__right {
+    display: flex;
+    gap: 15px;
+}
+
+.todo__icons {
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.todo__icons--list {
+    color: #c77c17;
+}
+
+.todo__icons--delete:hover,
+.todo__icons--edit:hover,
+.todo__icons--done:hover {
+    transform: scale(1.2);
+}
+
+.todo__icons--delete {
+    color: #eb2121d4;
+}
+
+.todo__icons--edit {
+    color: #ffca14;
+}
+
+.todo__icons--done {
+    color: #2cca00;
+}
