@@ -10,7 +10,7 @@ export default function Form({ addTodo }) {
     setInputValue("");
   }
   return (
-    <form onSubmit={handleSubmitForm}>
+    <form className={styles.form} onSubmit={handleSubmitForm}>
       <input onChange={(e) => setInputValue(e.target.value)} type="text" placeholder="Create new Todo" value={inputValue} />
       <button type="sumbit">Add ToDo</button>
     </form>
