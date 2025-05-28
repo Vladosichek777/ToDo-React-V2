@@ -4,6 +4,10 @@ import ListTodo from "./components/ListTodo";
 import Buttons from "./components/Buttons";
 import { v4 as uuidv4 } from "uuid";
 import { useState } from "react";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 
 function App() {
   const [listTodo, setListTodo] = useState([]);
